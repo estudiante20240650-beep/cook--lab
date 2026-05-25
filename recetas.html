@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CookLab – Guías de Aprendizaje</title>
+  <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./recetas.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">
+        <img src="./logo2.png" alt="CookLab Logo">
+      </div>
+      <span class="nav-logo-text">Cook<span>Lab</span></span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" >Inicio</a></li>
+      <li><a href="recetas.html" class="active">Guías de Aprendizaje</a></li>
+      <li><a href="faq.html">Contáctanos</a></li>
+    </ul>
+  </nav>
+
+  <!--  MAIN -->
+  <main>
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+      <div class="page-badge">
+        <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        Guías de Aprendizaje
+      </div>
+      <h1 class="page-title">Aprende las bases de la cocina</h1>
+      <p class="page-desc">Cada guía está diseñada para principiantes absolutos. Sin tecnicismos, sin presupuestos altos — solo práctica real desde tu cocina.</p>
+    </div>
+
+    <!-- FILTERS -->
+    <div class="filters">
+      <button class="filter-btn active"><a href="recetas.html">Todas</a></button>
+      <button class="filter-btn"><a href="desayuno.html">Desayuno</a></button>
+      <button class="filter-btn"><a href="almuerzos.html">Almuerzos</a></button>
+      <button class="filter-btn"><a href="cenas.html">Cenas</a></button>
+    </div>
+
+    <!-- ── ROW 1 ── -->
+    <div class="cards-grid">
+
+      <!-- Card 1: Cena -->
+      <div class="guide-card">
+        <div class="card-photo">
+          <img src="https://images.unsplash.com/photo-1618040996337-56904b7850b9?w=1400&q=80" alt="Quesadillas de Queso" />
+          <span class="card-level level-basico">Cena</span>
+          <div class="card-photo-title">Quesadillas de queso</div>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">Aprende a preparar quesadillas doradas y crujientes rellenas de queso derretido. Descubre cómo cocinarlas correctamente y lograr una comida sencilla, rápida y llena de sabor.</p>
+          <div class="card-tags">
+            <span class="tag tag-orange">Preparación rápida y fácil</span>
+            <span class="tag tag-orange">Ideal para desayunos o cenas ligeras</span>
+            <span class="tag tag-orange">Puede acompañarse con salsas o crema</span>
+            <span class="tag tag-orange">Textura crujiente</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              10 min de lectura
+            </span>
+            <a href="cena1.html" class="card-link">Ver guía &nbsp;›</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Desayuno -->
+      <div class="guide-card">
+        <div class="card-photo">
+          <img src="https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=1400&q=80" alt="Avena con Frutas" />
+          <span class="card-level level-basico">Desayuno</span>
+          <div class="card-photo-title">Avena con frutas</div>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">Prepara una avena cremosa y nutritiva combinándola con frutas frescas como banano, fresas o manzana. Aprende a cocinar la avena correctamente, elegir los mejores toppings y crear un desayuno fácil, saludable y perfecto para comenzar el día con energía.</p>
+          <div class="card-tags">
+            <span class="tag tag-pink">Rica en fibra y energía natural</span>
+            <span class="tag tag-pink">Fácil y rápida de preparar</span>
+            <span class="tag tag-pink">Ideal para un desayuno saludable y ligero</span>
+            <span class="tag tag-pink">Aporta sensación de saciedad</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              15 min de lectura
+            </span>
+            <a href="desayuno1.html" class="card-link">Ver guía &nbsp;›</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Almuerzo -->
+      <div class="guide-card">
+        <div class="card-photo">
+          <img src="./arrozpollo.jpg" alt="Arroz con Pollo Fácil" />
+          <span class="card-level level-basico">Almuerzo</span>
+          <div class="card-photo-title">Arroz con pollo</div>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">Disfruta de un arroz con pollo lleno de sabor, preparado con ingredientes sencillos y técnicas fáciles para lograr un plato completo y casero. Aprende a cocinar el arroz correctamente, sazonar el pollo y combinar vegetales para una comida práctica y deliciosa.</p>
+          <div class="card-tags">
+            <span class="tag tag-yellow">Comida completa</span>
+            <span class="tag tag-yellow">Fácil de preparar</span>
+            <span class="tag tag-yellow">Combina proteínas, arroz y vegetales</span>
+            <span class="tag tag-yellow">Gran sabor y textura suave</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              8 min de lectura
+            </span>
+            <a href="almuerzo1.html" class="card-link">Ver guía &nbsp;›</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── ROW 2 ── -->
+    <div class="cards-grid">
+
+      <!-- Card 4: Pasta -->
+      <div class="guide-card">
+        <div class="card-photo">
+    <img src="./tortillaespañola.jpg" />
+          <span class="card-level level-intermedio">Cenas</span>
+          <div class="card-photo-title">Tortilla española</div>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">Descubre cómo hacer una tortilla española tradicional utilizando papas, huevos y una cocción sencilla para lograr una textura suave y dorada. Aprende técnicas básicas para cocinarla correctamente.</p>
+          <div class="card-tags">
+            <span class="tag tag-yellow">Plato clásico y abundante</span>
+            <span class="tag tag-yellow">Rica en proteína</span>
+            <span class="tag tag-yellow">Puede servirse caliente o fría</span>
+            <span class="tag tag-yellow">Textura suave por dentro</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              20 min de lectura
+            </span>
+            <a href="cena2.html" class="card-link">Ver guía &nbsp;›</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5: Almuerzo -->
+      <div class="guide-card">
+        <div class="card-photo">
+          <img
+            src="./ensaladatun.jpg"
+            alt="Ensaladas nutritivas y ricas"
+            loading="lazy"
+          />
+          <span class="card-level level-basico">Almuerzos</span>
+          <div class="card-photo-title">Ensaladas de atún con aguacate </div>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">Aprende a preparar una ensalada fresca y nutritiva utilizando atún, aguacate y vegetales frescos. Descubre combinaciones simples y saludables para crear un plato ligero, rápido y lleno de sabor.</p>
+          <div class="card-tags">
+            <span class="tag tag-green">Rica en proteína y grasas saludables</span>
+            <span class="tag tag-green">Preparación rápida y sencilla</span>
+            <span class="tag tag-green">Ideal para comidas ligeras</span>
+            <span class="tag tag-green">Fresca y refrescante</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              5 min de lectura
+            </span>
+            <a href="almuerzo2.html" class="card-link">Ver guía &nbsp;›</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6: Desayuno -->
+      <div class="guide-card">
+        <div class="card-photo">
+          <img
+            src="./huevosrevueltos.jpg"
+            alt="Guisos y sopas para el invierno"
+            loading="lazy"
+          />
+          <span class="card-level level-intermedio">Desayunos</span>
+          <div class="card-photo-title">Huevos revueltos con tostadas</div>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">Descubre cómo hacer huevos revueltos suaves y esponjosos acompañados de tostadas crujientes y doradas. Aprende técnicas básicas de cocción, control del fuego y formas sencillas de servir un desayuno clásico y delicioso.</p>
+          <div class="card-tags">
+            <span class="tag tag-blue">Alto contenido de proteína</span>
+            <span class="tag tag-blue">Desayuno clásico</span>
+            <span class="tag tag-blue">Balanceado</span>
+            <span class="tag tag-blue">Preparación sencilla</span>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              30 min de lectura
+            </span>
+            <a href="desayuno2.html" class="card-link">Ver guía &nbsp;›</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CHEF TIP -->
+    <div class="chef-tip">
+      <div class="chef-tip-left">
+        <div class="chef-tip-icon">🔥</div>
+        <div>
+          <div class="chef-tip-title">Consejo del chef</div>
+          <div class="chef-tip-desc">Empieza siempre por leer toda la receta antes de comenzar. ¡Así evitarás sorpresas!</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!--  FOOTER  -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-logo">
+          <div class="nav-logo-icon">
+            <img src="./logo2.png" alt="CookLab Logo">
+          </div>
+          <span class="footer-brand-name">Cook<span>Lab</span></span>
+        </div>
+        <p class="footer-desc">Tu escuela de cocina básica doméstica. Aprende a cocinar desde cero con guías paso a paso y videos sencillos, sin complicaciones.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2"><rect x="2" y="7" width="20" height="15" rx="3"/><polygon points="10 9.5 16 12 10 14.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Explorar</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="recetas.html">Guías de aprendizaje</a></li>
+          <li><a href="faq.html">Contáctanos</a></li>
+        </ul>
+      </div>
+
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 CookLab. Todos los derechos reservados.</span>
+      <div class="footer-legal">
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
